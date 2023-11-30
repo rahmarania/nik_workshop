@@ -5,8 +5,8 @@ import streamlit as st
 st.set_page_config(layout = "wide")
 
 # import
-employ_merge = pd.read_pickle('data/employ_clean.pkl')
-coord = pd.read_csv('data/coordinate.csv')
+employ_merge = pd.read_pickle('employ_clean.pkl')
+coord = pd.read_csv('coordinate.csv')
 
 # header
 # bisa jg pake title, tanpa pager
